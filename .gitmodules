@@ -1,0 +1,27 @@
+[submodule "powerline"]
+	path = powerline
+	url = /home/eskerda/.vim/bundle/powerline/
+[submodule ".vim/bundle/vim-fugitive"]
+	path = .vim/bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule ".vim/bundle/vim-javascript"]
+	path = .vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule ".vim/bundle/vim-less"]
+	path = .vim/bundle/vim-less
+	url = https://github.com/groenewege/vim-less
+[submodule ".vim/bundle/vim-monokai"]
+	path = .vim/bundle/vim-monokai
+	url = https://github.com/sickill/vim-monokai.git
+[submodule ".vim/bundle/vim-python-pep8-indent"]
+	path = .vim/bundle/vim-python-pep8-indent
+	url = https://github.com/hynek/vim-python-pep8-indent
+[submodule ".vim/bundle/vim-sunburst"]
+	path = .vim/bundle/vim-sunburst
+	url = https://github.com/sickill/vim-sunburst.git
+[submodule ".vim/bundle/powerline"]
+	path = .vim/bundle/powerline
+	url = https://github.com/Lokaltog/powerline.git
+[submodule ".vim/bundle/vim-pathogen"]
+	path = .vim/bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen

@@ -11,6 +11,7 @@ set backupdir=~/.vim/backup//
 set directory=~/.vim/tmp//
 
 "Pathogen, Syntax and highlighting
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 execute pathogen#helptags()
 syntax on
