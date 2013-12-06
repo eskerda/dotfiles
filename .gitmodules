@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+[submodule ".thinky"]
+	path = .thinky
+	url = git@github.com:eskerda/thinky.git
