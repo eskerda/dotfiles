@@ -1,4 +1,5 @@
 #!/bin/bash
+set +o histexpand
 FILENAME=$1
 while true
 do
@@ -13,6 +14,10 @@ do
        $2
        echo "-----           Done!              ------"
        LTIME=$ATIME
+       FORTUNE=`fortune -as`
+       echo $FORTUNE
+       echo "=========================================="
+       espeak "$FORTUNE"
    fi
    sleep 1
 done
